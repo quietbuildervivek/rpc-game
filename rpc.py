@@ -10,10 +10,12 @@ if your_option==1:
     Upp="ROCK"
 elif your_option==2:
     Upp="PAPER"
-elif your_option==3:
+elif your_option==3:# HELLO
     Upp="SCISSORS"
 else:
     print("Invalid")
+    
+print("HELLO")
 
 print("Computer chose: ",x)
 print("You chose: ",Upp)
