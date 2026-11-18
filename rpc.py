@@ -15,25 +15,26 @@ elif your_option==3:# HELLO
 else:
     print("Invalid")
     
-print("HELLO")
+print("WELCOME TO RPC")
 
 print("Computer chose: ",x)
 print("You chose: ",Upp)
 
-if choice=="ROCK" and Upp=="PAPER":
-    print(f"YOU WIN {Upp} beats {choice}")
-elif choice=="PAPER" and Upp=="SCISSORS":
-    print(f"YOU WIN {Upp} beats {choice}")
-elif choice=="SCISSORS" and Upp=="ROCK":
-    print(f"YOU WIN {Upp} beats {choice}")
-elif choice=="ROCK" and Upp=="SCISSORS":
-    print(f"YOU LOST {choice} beats {Upp}")
-elif choice=="SCISSORS" and Upp=="PAPER":
-    print(f"YOU LOST {choice} beats {Upp}")
-elif choice=="PAPER" and Upp=="ROCK":
-    print(f"YOU LOST {choice} beats {Upp}")
-elif choice==Upp:
-    print("DRAW")
-else:
-    print("Invalid")
+for i in range(1,4):
+    if choice=="ROCK" and Upp=="PAPER":
+        print(f"YOU WIN {Upp} beats {choice}")
+    elif choice=="PAPER" and Upp=="SCISSORS":
+        print(f"YOU WIN {Upp} beats {choice}")
+    elif choice=="SCISSORS" and Upp=="ROCK":
+        print(f"YOU WIN {Upp} beats {choice}")
+    elif choice=="ROCK" and Upp=="SCISSORS":
+        print(f"YOU LOST {choice} beats {Upp}")
+    elif choice=="SCISSORS" and Upp=="PAPER":
+        print(f"YOU LOST {choice} beats {Upp}")
+    elif choice=="PAPER" and Upp=="ROCK":
+        print(f"YOU LOST {choice} beats {Upp}")
+    elif choice==Upp:
+        print("DRAW")
+    else:
+        print("Invalid")
 # print(choice) # using this to see what random output is 
